@@ -10,15 +10,15 @@ body {
   line-height: 1.6;
   background: #f7f7f7;
   color: #333;
-  padding: 0 10px;
+  
 }
 
 header {
   text-align: center;
   background: #0300a8;
   color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
+  padding: 0;
+
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,9 +36,11 @@ header p {
 
 header .social-links {
   display: flex;
+ 
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
   margin-top: 20px;
+  left: 100px;
 }
 
 .social-icon {
@@ -54,12 +56,13 @@ header .social-links {
 
 .pfp {
   height: 40vw;
-  width: 40vw;
+  width: 30vw;
   max-height: 250px;
-  max-width: 250px;
+  max-width: 175px;
   margin-bottom: 15px;
-  border-radius: 50%;
+  border-radius: 25%;
   border: 3px solid #ffffff;
+  margin-right: 2px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
