@@ -36,11 +36,12 @@ header p {
 
 header .social-links {
   display: flex;
- 
+  color: #f1f1f1;
   justify-content: center;
   gap: 5px;
   margin-top: 20px;
   left: 100px;
+  filter: brightness(100) invert(15);
 }
 
 .social-icon {
